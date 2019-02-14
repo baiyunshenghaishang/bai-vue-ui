@@ -1,3 +1,11 @@
-import Demo from './Demo.vue'
+import LoadBottomAuto from './LoadBottomAuto.vue'
+import LoadBottomAutoWithoutEl from './LoadBottomAutoWithoutEl.vue'
+import CountDown from './CountDown'
+import NumberInput from './NumberInput'
 
-export { Demo }
+export {
+    LoadBottomAuto,
+    LoadBottomAutoWithoutEl,
+    CountDown,
+    NumberInput
+}

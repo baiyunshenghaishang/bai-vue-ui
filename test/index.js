@@ -1,17 +1,10 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
-import VConsole from 'vconsole'
-
-Vue.config.productionTip = false
-
-if (process.env.NODE_ENV === 'development') {
-    new VConsole()
-}
 
 new Vue({
+    el: '#app',
     router,
-    store,
-    render: h => h(App),
-}).$mount('#app')
+    components: { App },
+    template: '<App/>',
+})

@@ -1,7 +1,7 @@
 <template>
     <div>
         <li v-for="route in list" :key="route.path">
-            <router-link :to="route.path">{{ route.path }}</router-link>
+            <router-link :to="route.path">{{route.path}}</router-link>
         </li>
     </div>
 </template>
